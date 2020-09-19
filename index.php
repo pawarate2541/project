@@ -28,7 +28,7 @@ $jsonFlex = [
         "stickerId"=> "52002735"
         ]
        ]
-    ]
+    ];
 
 if ( sizeof($request_array['events']) > 0 ) {
     foreach ($request_array['events'] as $event) {
