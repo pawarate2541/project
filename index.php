@@ -21,7 +21,7 @@ $jsonFlex = [
         [
         "type"=> "text",
         "text"=> "หนักไหม ฝากของกับเราได้นะ Smart locker ยินดีให้บริการครับผม "
-       ]
+       ],
        [
         "type"=> "sticker",
         "packageId"=> "11537",
