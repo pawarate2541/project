@@ -23,14 +23,6 @@ $jsonFlex = [
         "contents" => [
           [
             "type" => "text",
-            "text" => "Purchase",
-            "size" => "lg",
-            "align" => "start",
-            "weight" => "bold",
-            "color" => "#009813"
-          ],
-          [
-            "type" => "text",
             "text" => "Rabbit Line Pay",
             "size" => "lg",
             "weight" => "bold",
