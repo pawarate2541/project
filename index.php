@@ -19,13 +19,13 @@ $jsonFlex = [
       "direction" => "ltr",
       "header" => [
         "type" => "box",
-        "layout" => "vertical",
+        "layout" => "horizontal",
         "contents" => [
           
           [
             "type" => "text",
             "text" => "หนักไหม ฝากของกับเราได้นะ Smart locker ยินดีให้บริการครับผม",
-            "size" => "sm",
+            "size" => "xxs",
             "weight" => "regular",
             "color" => "#000000"
           ]
