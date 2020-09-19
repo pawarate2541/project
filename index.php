@@ -1,7 +1,7 @@
 <?php
 
 
-$API_URL = 'https://testbotproject.herokuapp.com/index.php';
+$API_URL = 'https://api.line.me/v2/bot/message';
 $ACCESS_TOKEN = 'WqFC4QmBYDd5ZYutXd3ZMKS2zizMZWHc7PzS1W/Xt3//C/6s8nCUn8/2SzCu2SyBFcEe7vy/VAckgL7P32dhcOqalm5wpO91T4YkplUYh6WwSbP+cWCmHntm2TzH/hD1oNLWLDAZqb4JULuuq8lErQdB04t89/1O/w1cDnyilFU='; 
 $channelSecret = '98fdde1d2a1e51e0b7c0cd2472d69002';
 
