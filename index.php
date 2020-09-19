@@ -35,7 +35,7 @@ $jsonFlex = [
             "size" => "3xl",
             "weight" => "bold",
             "color" => "#000000"
-          ],
+          ]
           [
             "type" => "text",
             "text" => "Rabbit Line Pay",
