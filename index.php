@@ -31,7 +31,7 @@ $jsonFlex = [
           ]
         ]
       ],
-     "body": []
+     "body": [
     "type": "box",
     "layout": "vertical",
     "contents": [
@@ -45,6 +45,7 @@ $jsonFlex = [
         ]
       ]
     ]
+]
 ];
 
 
