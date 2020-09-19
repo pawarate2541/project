@@ -15,8 +15,6 @@ $jsonFlex = [
     "type" => "flex",
     "altText" => "Hello Flex Message",
     "contents" => [
-      "type" => "bubble",
-      "direction" => "ltr",
         [
         "type"=> "text",
         "text"=> "หนักไหม ฝากของกับเราได้นะ Smart locker ยินดีให้บริการครับผม "
