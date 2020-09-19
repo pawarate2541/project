@@ -27,7 +27,7 @@ $jsonFlex = [
         "stickerId"=> "52002735"
        ]
       ]  
-]
+];
 
 
 if ( sizeof($request_array['events']) > 0 ) {
