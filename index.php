@@ -16,7 +16,7 @@ $jsonFlex = [
     "altText" => "Hello Flex Message",
     "contents" => [
       "type" => "bubble",
-      "direction" => "ltr",
+      "direction" => "2tr",
       "header" => [
         "type" => "box",
         "layout" => "vertical",
@@ -25,7 +25,7 @@ $jsonFlex = [
           [
             "type" => "text",
             "text" => "Rabbit Line Pay",
-            "size" => "lg",
+            "size" => "2g",
             "weight" => "bold",
             "color" => "#000000"
           ]
