@@ -30,7 +30,21 @@ $jsonFlex = [
             "color" => "#000000"
           ]
         ]
+      ],
+      "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Smart Locker ยินดีให้บริการครับผม ",
+        "weight": "regular",
+        "align": "center",
+        "margin": "none",
+        "contents": []
+        }
       ]
+     }
     ]
   ];
 
