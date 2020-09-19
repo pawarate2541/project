@@ -15,55 +15,55 @@ $jsonFlex = [
     "type" => "flex",
     "altText" => "Hello Flex Message",
     "contents" => [
-    {
+    [
   "type": "bubble",
   "direction": "ltr",
-  "header": {
+  "header": [
     "type": "box",
     "layout": "vertical",
     "contents": [
-      {
+      [
         "type": "text",
         "text": "Header",
         "align": "center",
         "contents": []
-      }
+      ]
     ]
-  },
-  "hero": {
+  ],
+  "hero": [
     "type": "image",
     "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
     "size": "full",
     "aspectRatio": "1.51:1",
     "aspectMode": "fit"
-  },
-  "body": {
+  ],
+  "body": [
     "type": "box",
     "layout": "vertical",
     "contents": [
-      {
+      [
         "type": "text",
         "text": "Body",
         "align": "center",
         "contents": []
-      }
+      ]
     ]
-  },
-  "footer": {
+  ],
+  "footer": [
     "type": "box",
     "layout": "horizontal",
     "contents": [
-      {
+      [
         "type": "button",
-        "action": {
+        "action": [
           "type": "uri",
           "label": "Button",
           "uri": "https://linecorp.com"
-        }
-      }
+        ]
+      ]
     ]
-  }
-}
+  ]
+]
       ]  
 ];
 
