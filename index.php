@@ -14,12 +14,7 @@ $request_array = json_decode($request, true);   // Decode JSON to Array
 $jsonFlex = [
     "type" => "flex",
     "altText" => "Hello Flex Message",
-    "contents" => [
-      "type" => "bubble",
-      "direction" => "ltr",
-      "header" => [
-        "type" => "box",
-        "layout" => "horizontal",
+    
         "contents" => [
           
           [
@@ -30,9 +25,7 @@ $jsonFlex = [
             "color" => "#000000"
           ]
         ]
-      ]
-    ]
-  ];
+      ];
 
 
 if ( sizeof($request_array['events']) > 0 ) {
