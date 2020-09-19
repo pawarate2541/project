@@ -21,32 +21,31 @@ $jsonFlex = [
         "type" => "box",
         "layout" => "vertical",
         "contents" => [
-          
           [
             "type" => "text",
-            "text" => "Rabbit Line Pay",
+            "text" => "Smart Locker",
             "size" => "lg",
+            "align" => "start",
             "weight" => "bold",
-            "color" => "#000000"
+            "color" => "#009813"
           ]
         ]
       ],
-      "body": {
+     "body": []
     "type": "box",
     "layout": "vertical",
     "contents": [
-      {
+      [
         "type": "text",
         "text": "Smart Locker ยินดีให้บริการครับผม ",
         "weight": "regular",
         "align": "center",
         "margin": "none",
         "contents": []
-        }
+        ]
       ]
-     }
     ]
-  ];
+];
 
 
 if ( sizeof($request_array['events']) > 0 ) {
