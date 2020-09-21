@@ -14,15 +14,15 @@ $request_array = json_decode($request, true);   // Decode JSON to Array
 $jsonFlex = [
     "type" => "flex",
     "altText" => "Hello Flex Message",
-    [
+    {
     "type" => "text",
     "text" => "หนักไหม ฝากของกับเราได้นะ Smart locker ยินดีให้บริการครับผม "
-    ],
-    [
-    "type" => "sticker"
+    },
+    {
+    "type" => "sticker",
     "packageId" => "11537",
     "stickerId" => "52002735"
-    ]
+    }
     ];
 
 if ( sizeof($request_array['events']) > 0 ) {
