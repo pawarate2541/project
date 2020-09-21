@@ -12,17 +12,12 @@ $request = file_get_contents('php://input');   // Get request content
 $request_array = json_decode($request, true);   // Decode JSON to Array
 
 $jsonFlex = [
-    "type" => "flex",
-    "altText" => "Hello Flex Message",
     "type" => "text",
-    "text" => "หนักไหม ฝากของกับเราได้นะ Smart locker ยินดีให้บริการครับผม "
+    "text" => "หนักไหม ฝากของกับเราได้นะ Smart locker ยินดีให้บริการครับผม ",
+    "type" => "text",
+    "text" => "Hello World "
     ];
 
-$jsonFlex1 = [
-    "type" => "sticker",
-    "packageId" => "11537",
-    "stickerId" => "52002735"
-    ];
 
 if ( sizeof($request_array['events']) > 0 ) {
     foreach ($request_array['events'] as $event) {
