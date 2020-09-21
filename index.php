@@ -14,39 +14,9 @@ $request_array = json_decode($request, true);   // Decode JSON to Array
 $jsonFlex = [
     "type" => "flex",
     "altText" => "Hello Flex Message",
-    "contents" => [
-      "type" => "bubble",
-      "direction" => "ltr",
-      "header" => [
-        "type" => "box",
-        "layout" => "vertical",
-        "contents" => [
-          [
-            "type" => "text",
-            "text" => "Smart Locker",
-            "size" => "lg",
-            "align" => "start",
-            "weight" => "bold",
-            "color" => "#009813"
-          ]      
-        ]
-      ],
-      "body" => [
-        "type" => "box",
-        "layout" => "vertical",
-        "contents" => [
-              [
-                "type" => "text",
-                "text" => "Smart locker ยินดีให้บริการครับผม",
-                "align" => "start",
-                "color" => "#000000FF"
-              ]
-            
-          ]
-        
-        ]
-      ]
-];
+    "type" => "text"
+    "text" => "Hello Wolrd"
+    ];
 
 if ( sizeof($request_array['events']) > 0 ) {
     foreach ($request_array['events'] as $event) {
