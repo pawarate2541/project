@@ -15,7 +15,7 @@ $jsonFlex = [
     "type" => "flex",
     "altText" => "Hello Flex Message",
     "type" => "text",
-    "text" => "Hello Wolrd"
+    "text" => "หนักไหม ฝากของกับเราได้นะ Smart locker ยินดีให้บริการครับผม "
     ];
 
 if ( sizeof($request_array['events']) > 0 ) {
