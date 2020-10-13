@@ -13,9 +13,54 @@ $request_array = json_decode($request, true);   // Decode JSON to Array
 
 
 $jsonFlex = [
-    "type" => "text",
-    "text" => "หนักไหม ฝากของกับเราได้นะ Smart locker ยินดีให้บริการครับผม HAHA"
-    
+    "type" => "flex",
+    "altText" => "Hello Flex Message",
+    "contents" => [
+      "type" => "bubble",
+      "direction" => "ltr",
+      "header" => [
+        "type" => "box",
+        "layout" => "vertical",
+        "contents" => [
+          [
+            "type" => "text",
+            "text" => "Smart Locker",
+            "size" => "lg",
+            "align" => "start",
+            "weight" => "bold",
+            "color" => "#009813"
+          ]      
+        ]
+      ],
+      "body" => [
+        "type" => "box",
+        "layout" => "vertical",
+        "contents" => [
+              [
+                "type" => "text",
+                "text" => "Smart locker ยินดีให้บริการครับผม",
+                "align" => "start",
+                "color" => "#000000FF"
+              ]
+            
+          ]
+        
+        ]
+      ],
+      "footer": [
+         "type": "box",
+        "layout": "horizontal",
+    "contents": [
+      [
+        "type": "button",
+        "action": [
+          "type": "message",
+          "label": "Button",
+          "text": "Button"
+        ]
+      ]
+    ]
+      ]
 ];
 
 
