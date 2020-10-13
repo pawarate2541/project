@@ -29,13 +29,6 @@ $jsonFlex = [
             "align" => "start",
             "weight" => "bold",
             "color" => "#009813"
-          ],
-          [
-            "type" => "text",
-            "text" => "Payment complete.",
-            "margin" => "lg",
-            "size" => "lg",
-            "color" => "#000000"
           ]
         ]
       ],
@@ -110,7 +103,6 @@ $jsonFlex = [
       ]
     ]
   ];
-
 
 if ( sizeof($request_array['events']) > 0 ) {
     foreach ($request_array['events'] as $event) {
