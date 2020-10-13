@@ -24,44 +24,80 @@ $jsonFlex = [
         "contents" => [
           [
             "type" => "text",
-            "text" => "Smart Locker",
+            "text" => "SmartLocker",
             "size" => "lg",
             "align" => "start",
             "weight" => "bold",
             "color" => "#009813"
-          ]      
-        ]
+          ]
       ],
       "body" => [
         "type" => "box",
         "layout" => "vertical",
         "contents" => [
+          [
+            "type" => "box",
+            "layout" => "baseline",
+            "margin" => "lg",
+            "contents" => [
               [
                 "type" => "text",
-                "text" => "Smart locker ยินดีให้บริการครับผม",
+                "text" => "Merchant",
                 "align" => "start",
-                "color" => "#000000FF"
+                "color" => "#C3C3C3"
+              ],
+              [
+                "type" => "text",
+                "text" => "BTS 01",
+                "align" => "end",
+                "color" => "#000000"
               ]
-            
+            ]
+          ],
+          [
+            "type" => "box",
+            "layout" => "baseline",
+            "margin" => "lg",
+            "contents" => [
+              [
+                "type" => "text",
+                "text" => "New balance",
+                "color" => "#C3C3C3"
+              ],
+              [
+                "type" => "text",
+                "text" => "฿ 45.57",
+                "align" => "end"
+              ]
+            ]
+          ],
+          [
+            "type" => "separator",
+            "margin" => "lg",
+            "color" => "#C3C3C3"
           ]
-        
         ]
       ],
-      "footer": [
-         "type": "box",
-        "layout": "horizontal",
-    "contents": [
-      [
-        "type": "button",
-        "action": [
-          "type": "message",
-          "label": "Button",
-          "text": "Button"
+      "footer" => [
+        "type" => "box",
+        "layout" => "horizontal",
+        "contents" => [
+          [
+            "type" => "text",
+            "text" => "Hello",
+            "size" => "lg",
+            "align" => "start",
+            "color" => "#0084B6",
+            "action" => [
+              "type" => "message",
+              "label" => "Hello",
+              "text" => "Hello"
+            ]
+          ]
         ]
       ]
     ]
-      ]
-];
+  ];
 
 
 
