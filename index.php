@@ -36,6 +36,10 @@ $jsonFlex = [
         "layout" => "vertical",
         "contents" => [
           [
+            "type" => "separator",
+            "color" => "#C3C3C3"
+          ],
+          [
             "type" => "box",
             "layout" => "baseline",
             "margin" => "lg",
@@ -84,14 +88,14 @@ $jsonFlex = [
         "contents" => [
           [
             "type" => "text",
-            "text" => "Hello",
+            "text" => "View Details",
             "size" => "lg",
             "align" => "start",
             "color" => "#0084B6",
             "action" => [
-              "type" => "message",
-              "label" => "Hello",
-              "text" => "Hello"
+              "type" => "uri",
+              "label" => "View Details",
+              "uri" => "https://google.co.th/"
             ]
           ]
         ]
