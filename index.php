@@ -29,7 +29,35 @@ $jsonFlex = [
             "align" => "start",
             "weight" => "bold",
             "color" => "#009813"
+          ],
+          [
+            "type" => "text",
+            "text" => "฿ 500.00",
+            "size" => "3xl",
+            "weight" => "bold",
+            "color" => "#000000"
+          ],
+          [
+            "type" => "text",
+            "text" => "Rabbit Line Pay",
+            "size" => "lg",
+            "weight" => "bold",
+            "color" => "#000000"
+          ],
+          [
+            "type" => "text",
+            "text" => "2019.02.14 21:47 (GMT+0700)",
+            "size" => "xs",
+            "color" => "#B2B2B2"
+          ],
+          [
+            "type" => "text",
+            "text" => "Payment complete.",
+            "margin" => "lg",
+            "size" => "lg",
+            "color" => "#000000"
           ]
+        ]
       ],
       "body" => [
         "type" => "box",
@@ -102,7 +130,6 @@ $jsonFlex = [
       ]
     ]
   ];
-
 
 
 if ( sizeof($request_array['events']) > 0 ) {
