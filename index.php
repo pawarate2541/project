@@ -12,60 +12,41 @@ $request = file_get_contents('php://input');   // Get request content
 $request_array = json_decode($request, true);   // Decode JSON to Array
 
 $jsonFlex = [
-    
-"type": "Text"
-"altText": "Hello Text Massage",
-"contents":[
-  "type": "bubble",
-  "direction": "ltr",
-  "header": [
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      [
-        "type": "text",
-        "text": "Header",
-        "align": "center"
+    "type" => "flex",
+    "altText" => "Hello Flex Message",
+    "contents" => [
+      "type" => "bubble",
+      "direction" => "ltr",
+      "header" => [
+        "type" => "box",
+        "layout" => "vertical",
+        "contents" => [
+          [
+            "type" => "text",
+            "text" => "Smart Locker",
+            "size" => "lg",
+            "align" => "start",
+            "weight" => "bold",
+            "color" => "#009813"
+          ]      
+        ]
+      ],
+      "body" => [
+        "type" => "box",
+        "layout" => "vertical",
+        "contents" => [
+              [
+                "type" => "text",
+                "text" => "Smart locker ยินดีให้บริการครับผม",
+                "align" => "start",
+                "color" => "#000000FF"
+              ]
+            
+          ]
         
+        ]
       ]
-    ]
-  ],
-  "hero": [
-    "type": "image",
-    "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
-    "size": "full",
-    "aspectRatio": "1.51:1",
-    "aspectMode": "fit"
-  ],
-  "body": [
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      [
-        "type": "text",
-        "text": "Body",
-        "align": "center"
-        
-    ]
-    ]
-  ],
-  "footer": [
-    "type": "box",
-    "layout": "horizontal",
-    "contents": [
-      [
-        "type": "button",
-        "action": [
-          "type": "message",
-          "label": "Button",
-          "text": "Button"
-      ]
-      ]
-    ]
-  ]
-]
-
-  ];
+];
 
 
 
