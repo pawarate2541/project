@@ -12,8 +12,25 @@ $request = file_get_contents('php://input');   // Get request content
 $request_array = json_decode($request, true);   // Decode JSON to Array
 
 $jsonFlex = [
-    "type" => "text",
-    "text" => "หนักไหม ฝากของกับเราได้นะ Smart locker ยินดีให้บริการครับผม HAHA"
+    "type" => "flex",
+    "altText" => "Hello Flex Message",
+    "contents" =>[
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": [
+    "type": "buttons",
+    "imageBackgroundColor": "#FFFFFF",
+    "title": "Smart Locker ",
+    "text": "ยินดีรับใช้ครับ ",
+    "actions": [
+      [
+        "type": "message",
+        "label": "SmartLocker คืออะไร ",
+        "text": "SmartLocker คืออะไร "
+      ]
+    ]
+  ]
+]
 
     ];
 
