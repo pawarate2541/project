@@ -11,6 +11,7 @@ $POST_HEADER = array('Content-Type: application/json', 'Authorization: Bearer ' 
 $request = file_get_contents('php://input');   // Get request content
 $request_array = json_decode($request, true);   // Decode JSON to Array
 
+
 $jsonFlex = [
     "type" => "flex",
     "altText" => "Hello Flex Message",
@@ -23,7 +24,7 @@ $jsonFlex = [
         "contents" => [
           [
             "type" => "text",
-            "text" => "Smart Locker",
+            "text" => "Purchase",
             "size" => "lg",
             "align" => "start",
             "weight" => "bold",
@@ -37,15 +38,17 @@ $jsonFlex = [
         "contents" => [
               [
                 "type" => "text",
-                "text" => "Smart locker ยินดีให้บริการครับผม",
+                "text" => "Merchant",
                 "align" => "start",
-                "color" => "#000000FF"
+                "color" => "#C3C3C3"
               ]
             
           ]
         
         ]
       ]
+
+    
 ];
 
 
