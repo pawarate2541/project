@@ -13,29 +13,8 @@ $request_array = json_decode($request, true);   // Decode JSON to Array
 
 
 $jsonFlex = [
-    "type" => "flex",
-    "altText" => "Hello Flex Message",
-    "contents" => {
-  "type": "template",
-  "altText": "this is a confirm template",
-  "template": {
-    "type": "confirm",
-    "actions": [
-      {
-        "type": "message",
-        "label": "Yes",
-        "text": "Yes"
-      },
-      {
-        "type": "message",
-        "label": "No",
-        "text": "No"
-      }
-    ],
-    "text": "Hello "
-  }
-}
-
+    "type" => "text",
+    "text" => "หนักไหม ฝากของกับเราได้นะ Smart locker ยินดีให้บริการครับผม HAHA"
     
 ];
 
