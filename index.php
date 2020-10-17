@@ -49,14 +49,14 @@ $jsonFlex = [
         "contents" => [
           [
             "type" => "text",
-            "text" => "Hello",
+            "text" => "Location",
             "size" => "lg",
             "align" => "center",
             "color" => "#0084B6",
             "action" => [
               "type" => "message",
-              "label" => "Hello",
-              "text" => "hello"
+              "label" => "Location",
+              "text" => "Location"
             ]
           ]
         ]
