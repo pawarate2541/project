@@ -13,27 +13,55 @@ $request_array = json_decode($request, true);   // Decode JSON to Array
 
 
 $jsonFlex = [
-   
-      "type": "flex",
-  "altText": "this is a buttons template",
-  "template": [
-    "type": "buttons",
-    "title": "Title",
-    "text": "Text",
-    "actions": [
-      [
-        "type": "message",
-        "label": "Action 1",
-        "text": "Action 1"
-    ],
-      [
-        "type": "message",
-        "label": "Action 2",
-        "text": "Action 2"
+    "type" => "flex",
+    "altText" => "Hello Flex Message",
+    "contents" => [
+      "type" => "bubble",
+      "direction" => "ltr",
+      "header" => [
+        "type" => "box",
+        "layout" => "vertical",
+        "contents" => [
+          [
+            "type" => "text",
+            "text" => "SmartLocker",
+            "size" => "lg",
+            "align" => "center",
+            "weight" => "bold",
+            "color" => "#009813"
+          ]
+        ]
+      ],
+      "body" => [
+        "type" => "box",
+        "layout" => "vertical",
+        "contents" => [
+          [
+            "type" => "text",
+            "text" => "SmartLocker ยินดีให้บริการครับ",
+            "align" => "center"
+          ]
+        ]
+      ],
+      "footer" => [
+        "type" => "box",
+        "layout" => "horizontal",
+        "contents" => [
+          [
+            "type" => "text",
+            "text" => "Hello",
+            "size" => "lg",
+            "align" => "center",
+            "color" => "#0084B6",
+            "action" => [
+              "type" => "message",
+              "label" => "Hello",
+              "text" => "hello"
+            ]
+          ]
+        ]
+      ]
     ]
-    ]
-
-]
   ];
 
 if ( sizeof($request_array['events']) > 0 ) {
