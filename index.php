@@ -14,7 +14,7 @@ $request_array = json_decode($request, true);   // Decode JSON to Array
 
 $jsonFlex = [
    
-      "type": "template",
+      "type": "flex",
   "altText": "this is a buttons template",
   "template": [
     "type": "buttons",
