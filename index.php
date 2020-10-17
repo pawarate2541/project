@@ -57,6 +57,17 @@ $jsonFlex = [
               "type" => "message",
               "label" => "Location",
               "text" => "Location"
+            ],
+             [
+            "type" => "text",
+            "text" => "How to use",
+            "size" => "lg",
+            "align" => "center",
+            "color" => "#0084B6",
+            "action" => [
+              "type" => "message",
+              "label" => "How to use",
+              "text" => "How to use"
             ]
           ]
         ]
