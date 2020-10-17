@@ -57,7 +57,8 @@ $jsonFlex = [
               "type" => "message",
               "label" => "Location",
               "text" => "Location"
-            ],
+            ]
+          ],
              [
             "type" => "text",
             "text" => "How to use",
@@ -69,7 +70,6 @@ $jsonFlex = [
               "label" => "How to use",
               "text" => "How to use"
             ]
-          ]
         ]
       ]
     ]
